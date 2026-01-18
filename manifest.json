@@ -1,0 +1,33 @@
+{
+	"manifest_version": 3,
+	"name": "block ai",
+	"version": "1.0.0",
+	"description": "Stop outsourcing your intelligence",
+	"author": "Gavin Kondrath",
+	"homepage_url": "https://github.com/gavink97/block-ai",
+	"permissions": [
+		"tabs",
+	],
+	//"action": {
+   // 	"default_title": "Click to view a popup",
+    //	"default_popup": "popup.html"
+  	},
+	"icons": {
+		"48": "icons/icon-48.png",
+		"96": "icons/icon-96.png"
+	},
+	"host_permissions": [
+		"<all_urls>"
+	],
+	"background": {
+		"scripts": [
+			"./dist/background.js"
+		],
+		"type": "module"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "blockai@gav.ink"
+		}
+	}
+}
