@@ -19,17 +19,7 @@
 		"<all_urls>"
 	],
 	"background": {
-		"scripts": [
-			"./dist/background.js"
-		],
+		"service_worker": "./dist/background.js",
 		"type": "module"
-	},
-	"browser_specific_settings": {
-		"gecko": {
-			"id": "blockai@gav.ink",
-			"data_collection_permissions": {
-				"required": ["none"]
-			}
-		}
 	}
 }
