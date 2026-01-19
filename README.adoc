@@ -11,14 +11,19 @@ endif::[]
 Block AI: stop outsourcing your intelligence
 
 ++++
+<a href="https://addons.mozilla.org/en-US/firefox/addon/ai-block-take-back-control/">
  <picture>
    <img alt="block ai logo" src="./icons/icon.png" />
  </picture>
+ </a>
 ++++
 
 toc::[]
 
 == Getting Started
+
+=== Installation
+https://addons.mozilla.org/en-US/firefox/addon/ai-block-take-back-control/[Firefox: AMO]
 
 === Build from source
 
