@@ -23,7 +23,8 @@ toc::[]
 == Getting Started
 
 === Installation
-https://addons.mozilla.org/en-US/firefox/addon/ai-block-take-back-control/[Firefox: AMO]
+- https://addons.mozilla.org/en-US/firefox/addon/ai-block-take-back-control/[Firefox: AMO]
+- https://chromewebstore.google.com/detail/gmeidkgfmfdfcapafogjhdmoofonniic[Chrome Web Store]
 
 === Build from source
 
